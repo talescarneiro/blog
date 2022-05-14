@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../styles/reset.css">
+  <link rel="stylesheet" href="../styles/style.css">
+  <link rel="stylesheet" href="../styles/modal.css">
+  <title>Blog</title>
+</head>
+<body>
+
+  <header class="header__container">
+    <div class="menu__container">
+        <section class="header__logo">
+          <figure>
+            <img src="../img/logo_user_cat.png" alt="" id="avatar">
+          </figure>
+          <h1 id="user">Username</h1>
+        </section>
+    
+        <section class="header__logout">
+          <button id="btn__logout">Logout</button>
+        </section>
+    </div>
+  </header>
+
+  <div class="modal">
+    <h2>Editar publicação: </h2>
+    <textarea name="" id="" cols="30" rows="10" placeholder="Digite aqui." class="edit__content"></textarea>
+    <button class="enviar">Enviar</button>
+  </div>
+
+  <article class="content__container">
+    <div class="content__box">
+      <section class="content__post">
+        <textarea name="" id="text__content" cols="30" rows="10" placeholder="Comece o seu post incrível!"></textarea>
+        <button id="btn__criar_post">+</button>
+      </section>
+
+      <!-- <section class="content">
+        <img src="../img/logo_user_cat.png" alt="" class="user__avatar">
+        <div>
+          <h2 class="user__post">DoninhaVoadora</h2>
+          <p>Lorem 
+          </p>
+        </div>
+        <div class="options__user">
+          <p class="options__user_edit">Editar</p>
+          <p class="options__user_delete">Apagar</p>
+          <p class="options__user_date">01/01/2001</p>
+        </div>
+      </section> -->
+    </div>
+  </article>
+  
+  <script type="module" src="../js/principal.js"></script>
+</body>
+</html>

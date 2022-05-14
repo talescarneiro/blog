@@ -4,23 +4,24 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./src/styles/reset.css">
-    <link rel="stylesheet" href="./src/styles/stylelogin.css">
-    <title>Login</title>
+    <link rel="stylesheet" href="../styles/reset.css">
+    <link rel="stylesheet" href="../styles/stylelogin.css">
+    <title>Cadastrar</title>
 </head>
 <body>
-
     <div class="container">
         <form action="" class="form__container">
-            <h1>Login</h1>
+            <h1>Cadastro</h1>
+            <input type="text" placeholder="Nome de usuário" name="user" id="username">
             <input type="email" placeholder="Email" name="email" id="email">
+            <input type="text" placeholder="Foto de perfil" name="picture" id="avatarUrl">
             <input type="password" placeholder="Senha" name="password" id="password">
             <div class="button__container">
-                <button id="btn__login">Login</button>
+                <button id="btn__cadastrar">Cadastrar</button>
             </div>
-            <h3>Não tem uma conta? <a href="./src/pages/cadastro.html">Clique aqui</a>!</h3>
         </form>
     </div>
-    <script type="module" src="./src/js/login.js"></script>
+
+    <script type="module" src="../js/cadastrar.js"></script>
 </body>
 </html>
